@@ -70,11 +70,3 @@ This project is a relational database schema for managing a bookstore, designed 
 3. Add more data or build a frontend to connect to this database.
 
 ---
-
-## Notes
-
-- Ensure MySQL is running with proper user permissions to create roles and users.
-- You may want to use `INSERT IGNORE` or de-duplicate values to avoid conflicts.
-- Consider adding indices for frequent lookups (e.g., `email`, `isbn`, `order_date`).
-
-
